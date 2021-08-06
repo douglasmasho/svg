@@ -1,6 +1,5 @@
 @import url("../../css/strock-icon.css");
 @import url("../../css/bootstrap-theme.min.css");
-@import url("../../css/font-awesome.min.css");
 @keyframes popup {
   0% {
     opacity: 0;
@@ -198,7 +197,7 @@ li {
   list-style: none; }
 
 .btn {
-  background: #4dcef6;
+  background: #f89306;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -584,7 +583,7 @@ body {
 
 .header-3 .nav-t-holder .nav-t-footer ul.nav > li:hover a,
 .header-3 .nav-t-holder .nav-t-footer ul.nav > li.active a {
-  color: #4dcef6; }
+  color: #f89306; }
 
 .header-3 .nav-t-holder .nav-t-footer ul.nav > li ul.submenu li a {
   color: #242424; }
@@ -1056,12 +1055,6 @@ body {
    ============================== */
 .our-services {
   background: #f6f6f6; }
-
-.sectpad {
-  padding: 5.7em 0; }
-
-.sectpad-ser {
-  padding: 5.7em 0 3em; }
 
 .section_header {
   position: relative;
@@ -1782,7 +1775,7 @@ img {
   content: '';
   width: 40px;
   height: 2px;
-  background: #0094b3;
+  background: #f89306;
   display: block;
   margin-top: 13px; }
 
@@ -1792,24 +1785,24 @@ img {
   list-style: none; }
 
 .widget-contact-list ul li a {
-  color: #627279;
+  color: #fff;
   text-transform: capitalize;
   line-height: 39px; }
 
 .widget-contact-list ul li a:hover {
-  color: #009bb3; }
+  color: #f89306; }
 
 .widget-contact-list ul li i {
   float: left;
   font-size: 25px;
-  color: #009bb3;
+  color: #f89306;
   width: 34px;
   padding-top: 13px;
   line-height: 18px; }
 
 .widget.widget-contact ul li .fleft {
   float: left;
-  color: #627279;
+  color: #fff;
   width: -webkit-calc(100% - 34px);
   width: calc(100% - 34px);
   font: 400 1em/1.4em "Poppins", sans-serif;
@@ -1825,7 +1818,7 @@ img {
   font-size: 21px;
   line-height: 41px; }
 
-.widget.widget-contact ul li i.fa-envelope-o {
+.widget.widget-contact ul li i.fa-envelope-open {
   font-size: 18px;
   line-height: 41px; }
 
@@ -3788,9 +3781,6 @@ blockquote footer a {
 /* ==============================
      28. Testimonials page styles
    ============================== */
-.sectpad-t {
-  padding: 6em 0 0; }
-
 .testimonial-parea {
   padding: 0 0 6em; }
 
@@ -5855,6 +5845,9 @@ blockquote footer a {
 
 .fullwidth-slider {
   padding: 0 1.5em; }
+  @media (max-width: 75em) {
+    .fullwidth-slider {
+      width: 90% !important; } }
 
 .fullwidth-slider.owl-theme .owl-controls .owl-nav [class*="owl-"] {
   background: transparent;
@@ -6260,7 +6253,7 @@ blockquote footer a {
      41. Footer Page3
    ============================== */
 .footer-bg3 {
-  background: url("../images/footer/bg.jpg") no-repeat center center;
+  background: url("../../assets/footerbg.jpg") no-repeat center center;
   padding: 59px 0;
   min-height: 408px;
   background-size: cover; }
@@ -6827,9 +6820,9 @@ section.newsletter .inn p {
 
 section.newsletter .req-button a {
   line-height: 44px;
-  background: #4dcef6;
+  background: #f89306;
   padding: 0 20px;
-  border: 1px solid #4dcef6; }
+  border: 1px solid #f89306; }
 
 section.newsletter .req-button {
   margin: 0; }
@@ -7474,7 +7467,7 @@ header.black {
     background-size: 50%;
     padding: 10px; }
   .text h1 {
-    font-size: 10em; }
+    font-size: 5.5em; }
   .text h2 {
     font-size: 3em; }
   .text h3 {
@@ -7657,39 +7650,39 @@ header.black {
     flex-direction: column;
     align-items: center; }
 
-.row {
+.roww {
   display: flex;
   padding: 1rem; }
   @media (max-width: 56.25em) {
-    .row {
+    .roww {
       flex-direction: column;
       justify-content: center;
       align-items: center; } }
-  .row-2--child {
+  .roww-2--child {
     width: 40%;
     margin: 2rem; }
     @media (max-width: 56.25em) {
-      .row-2--child {
+      .roww-2--child {
         width: 90%; } }
-  .row-3--child {
+  .roww-3--child {
     width: 20%;
     margin: 2rem; }
     @media (max-width: 56.25em) {
-      .row-3--child {
+      .roww-3--child {
         width: 90%; } }
-  .row-7--child {
+  .roww-7--child {
     width: 15%; }
     @media (max-width: 56.25em) {
-      .row-7--child {
+      .roww-7--child {
         width: 90%; } }
     @media (max-width: 37.5em) {
-      .row-7--child {
+      .roww-7--child {
         width: 90%; } }
-  .row-8--child {
+  .roww-8--child {
     width: 13%; }
     @media (max-width: 56.25em) {
-      .row-8--child {
+      .roww-8--child {
         width: 90%; } }
     @media (max-width: 37.5em) {
-      .row-8--child {
+      .roww-8--child {
         width: 90%; } }

@@ -89,10 +89,11 @@ html{
 //    @import url(https://fonts.googleapis.com/css?family=Poppins);
    @import url('../../css/strock-icon.css');
    @import url('../../css/bootstrap-theme.min.css');
-   @import url('../../css/font-awesome.min.css');
+//    @import url('../../css/font-awesome.min.css');
    /* ==============================
       2 Global styles
       ============================== */
+
    
       *
    {
@@ -135,7 +136,7 @@ html{
        list-style: none;
    }
    .btn {
-       background: #4dcef6;
+       background: $orange;
        color: #fff;
        font-size: 16px;
        font-weight: bold;
@@ -522,7 +523,7 @@ html{
    }
    .header-3 .nav-t-holder .nav-t-footer ul.nav > li:hover a,
    .header-3 .nav-t-holder .nav-t-footer ul.nav > li.active a {
-       color: #4dcef6;
+       color: $orange;
    }
    .header-3 .nav-t-holder .nav-t-footer ul.nav > li ul.submenu li a {
        color: #242424;
@@ -1031,10 +1032,10 @@ html{
        background: #f6f6f6;
    }
    .sectpad {
-       padding: 5.7em 0;
+    //    padding: 5.7em 0;
    }
    .sectpad-ser {
-       padding: 5.7em 0 3em;
+    //    padding: 5.7em 0 3em;
    }
    .section_header {
        position: relative;
@@ -1776,7 +1777,7 @@ html{
        content: '';
        width: 40px;
        height: 2px;
-       background: #0094b3;
+       background: $orange;
        display: block;
        margin-top: 13px;
    }
@@ -1786,24 +1787,24 @@ html{
        list-style: none;
    }
    .widget-contact-list ul li a {
-       color: #627279;
+       color: #fff;
        text-transform: capitalize;
        line-height: 39px;
    }
    .widget-contact-list ul li a:hover {
-       color: #009bb3;
+       color: $orange;
    }
    .widget-contact-list ul li i {
        float: left;
        font-size: 25px;
-       color: #009bb3;
+       color: $orange;
        width: 34px;
        padding-top: 13px;
        line-height: 18px;
    }
    .widget.widget-contact ul li .fleft {
        float: left;
-       color: #627279;
+       color: #fff;
        width: -webkit-calc(100% - 34px);
        width: calc(100% - 34px);
        font: 400 1em/1.4em "Poppins", sans-serif;
@@ -1819,7 +1820,7 @@ html{
        font-size: 21px;
        line-height: 41px;
    }
-   .widget.widget-contact ul li i.fa-envelope-o {
+   .widget.widget-contact ul li i.fa-envelope-open {
        font-size: 18px;
        line-height: 41px;
    }
@@ -3851,7 +3852,7 @@ html{
    ============================== */
    
    .sectpad-t {
-       padding: 6em 0 0;
+    //    padding: 6em 0 0;
    }
    .testimonial-parea {
        padding: 0 0 6em;
@@ -5958,6 +5959,9 @@ html{
        padding: 96px 0 0 0;
    }
    .fullwidth-slider {
+       @include respond(tab-land){
+           width: 90% !important;
+       }
        padding: 0 1.5em;
    }
    .fullwidth-slider.owl-theme .owl-controls .owl-nav [class*="owl-"] {
@@ -6370,7 +6374,7 @@ html{
    ============================== */
    
    .footer-bg3 {
-       background: url("../images/footer/bg.jpg") no-repeat center center;
+       background: url("../../assets/footerbg.jpg") no-repeat center center;
        padding: 59px 0;
        min-height: 408px;
        background-size: cover;
@@ -6958,9 +6962,9 @@ html{
    section.newsletter .req-button a
    {
        line-height: 44px;
-       background: #4dcef6;
+       background: $orange;
        padding: 0 20px;
-       border: 1px solid #4dcef6;
+       border: 1px solid $orange;
    }
    section.newsletter .req-button
    {
