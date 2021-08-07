@@ -309,3 +309,12 @@
    }
  }
  
+
+ .scrollDown{
+     &__icon{
+         font-size: 1.5rem;
+         @include respond(phone){
+         font-size: 3rem;
+         }
+     }
+ }

@@ -5,6 +5,11 @@ const overlay = document.querySelector(".overlay");
 const therest = document.querySelector(".therest");
 
 
+function scrollDown(){
+    window.scrollBy(0, window.innerHeight);
+};
+
+
 
 menuToggle.addEventListener("click", ()=>{
     menuToggle.classList.toggle("active");

@@ -1991,10 +1991,14 @@ img {
   margin: 0 0 1.5em;
   border: 2px solid #e0e0e0; }
 
-.about-tab-box .tab-title-box ul li.active,
-.about-tab-box .tab-title-box ul li:hover {
-  background: #009bb3;
+.about-tab-box .tab-title-box ul li.active {
+  background: #f89306;
   border: 2px solid transparent; }
+
+.about-tab-box .tab-title-box ul li:hover {
+  background: rgba(45, 45, 45, 0.5);
+  border: 2px solid transparent;
+  color: black; }
 
 .about-tab-box .tab-title-box ul li:before {
   position: absolute;
@@ -2031,7 +2035,7 @@ img {
   margin-left: 20px; }
 
 .about-tab-box .single-tab-content h2 {
-  font: bold 2.2em/1.2em "Alegreya", serif;
+  font: bold 2.2em/1.2em "Poppins", serif;
   color: #000;
   text-transform: uppercase;
   position: relative;
@@ -7233,6 +7237,52 @@ section.newsletter .req-button a i {
 .bold {
   font-weight: bold; }
 
+.u-margin-bottom {
+  margin-bottom: 2.5rem; }
+  .u-margin-bottom-huge {
+    margin-bottom: 12rem !important; }
+  .u-margin-bottom-big {
+    margin-bottom: 8rem !important; }
+  .u-margin-bottom-small {
+    margin-bottom: 1.5rem !important; }
+  .u-margin-bottom-medium {
+    margin-bottom: 3rem !important; }
+
+.u-margin-top {
+  margin-top: 2.5rem !important; }
+  .u-margin-top-big {
+    margin-top: 8rem !important; }
+  .u-margin-top-huge {
+    margin-top: 15rem !important; }
+  .u-margin-top-small {
+    margin-top: 1.5rem !important; }
+
+.u-margin-left {
+  margin-left: 2.5rem; }
+  .u-margin-left-small {
+    margin-left: 2rem; }
+  .u-margin-left-big {
+    margin-left: 8rem; }
+
+.u-margin-right {
+  margin-right: 2.5rem; }
+  .u-margin-right-small {
+    margin-right: 2rem; }
+  .u-margin-right-big {
+    margin-right: 8rem; }
+
+.u-padding {
+  padding: 2rem !important; }
+  .u-padding-top {
+    padding-top: 2rem; }
+    .u-padding-top-big {
+      padding-top: 5rem; }
+    .u-padding-top-large {
+      padding-top: 15rem; }
+  .u-padding-sides {
+    padding-left: 5rem;
+    padding-right: 5rem; }
+
 h1, h2, h3, p {
   font-family: "Poppins", sans-serif; }
 
@@ -7473,6 +7523,12 @@ header.black {
   .text h3 {
     font-size: 2em; } }
 
+.scrollDown__icon {
+  font-size: 1.5rem; }
+  @media (max-width: 37.5em) {
+    .scrollDown__icon {
+      font-size: 3rem; } }
+
 .button {
   width: unset !important;
   display: inline-block;
@@ -7686,3 +7742,15 @@ header.black {
     @media (max-width: 37.5em) {
       .roww-8--child {
         width: 90%; } }
+
+.aboutus__img {
+  width: 100%; }
+
+.aboutus__div {
+  width: 50%; }
+
+.aboutus__structure {
+  width: 80rem; }
+  @media (max-width: 37.5em) {
+    .aboutus__structure {
+      width: 90%; } }

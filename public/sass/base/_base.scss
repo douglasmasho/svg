@@ -5959,9 +5959,6 @@ html{
        padding: 96px 0 0 0;
    }
    .fullwidth-slider {
-       @include respond(tab-land){
-           width: 90% !important;
-       }
        padding: 0 1.5em;
    }
    .fullwidth-slider.owl-theme .owl-controls .owl-nav [class*="owl-"] {

@@ -1,7 +1,6 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-
 @import "base/animations";
 @import "base/base";
 @import "base/typography";
@@ -13,10 +12,11 @@
 @import "components/table";
 
 
-
-
 @import "layout/grids";
 @import "layout/center-hrz";
 @import "layout/center-vert";
 @import "layout/center-all";
 @import "layout/rows";
+
+@import "pages/aboutus";
+
